@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbar-cycle",
+  "version": "${version}",
+  "name": "Hotbar Cycle",
+  "description": "Cycle out your hotbar from inventory rows, inspired by Stardew Valley!",
+  "authors": [
+    "FlashyReese"
+  ],
+  "contact": {
+    "website": "https://github.com/FlashyReese/hotbar-cycle",
+    "repo": "https://github.com/FlashyReese/hotbar-cycle"
+  },
+  "license": "MIT",
+  "icon": "assets/hotbar-cycle/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.flashyreese.mods.hotbarcycle.HotbarCycleMod"
+    ],
+    "client": [
+      "me.flashyreese.mods.hotbarcycle.HotbarCycleClientMod"
+    ]
+  },
+  "depends": {
+    "fabric": "*"
+  }
+}
